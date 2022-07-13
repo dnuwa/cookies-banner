@@ -1,0 +1,54 @@
+.cookies-eu-banner{
+    /* background-color: #444; */
+    color: #fff;
+    padding: 6px;
+    font-size: 13px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 90%;
+    z-index: 10;
+    /* margin: 4px; */
+}
+
+@media only screen and (max-width: 600px) {
+    .cookies-eu-banner{
+        /* background-color: #444; */
+        /* color: #fff;
+        padding: 6px;
+        font-size: 13px;
+        text-align: center; */
+        /* position: fixed; */
+        /* bottom: 0; */
+        width: 100%;
+        /* z-index: 10; */
+        /* margin: 4px; */
+    }
+  }
+
+.bg-pink{
+    background-color: #ece8dd;
+}
+
+.bg-dark-green{
+    background-color: #002828;
+}
+
+.popup-btn{
+    background-color: #bfb497;
+    border-color: #bfb497;
+    color: #FFFFFF;
+}
+
+.li-color{
+    background-color: #fafafa;
+}
+
+.li-color:hover{
+    cursor: pointer;
+}
+
+.active-menu{
+    background-color: #FFFFFF !important;
+    border-left: 10px solid #bfb497 !important;
+}
